@@ -68,3 +68,11 @@ p{
 .container{
     position: relative;
 }
+#fourth-section{
+  background-image: url("image/background.png");  
+  background-position: center;
+  width:auto;
+  border-radius: 20px;
+  height:60%;
+ 
+}

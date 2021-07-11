@@ -1,6 +1,70 @@
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;;
+}
 .name-highlight{
     color: orange;
+}
+.half-width{
+    width: 40%;
+    float:left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 75%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(180deg, lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5%;
+    color:white;
+    font-weight: 700;
+}
+section{
+    height:500px;
+    padding-bottom: 100px;
+}
+p{
+    font-size: 20px;
+    color: dimgray;
+}
+
+.first-portion{
+    color:salmon;
+}
+.second-portion{
+    color:purple;
+}
+#third-header{
+    text-align: center;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding:75px;
+    
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.third-portion-header-color{
+    color:steelblue;
+    font-size: 20px;
+    
+}
+.third-portion-para{
+    color: dimgray;
+    text-align: justify;
+    
+   
+}
+.container{
+    position: relative;
 }
